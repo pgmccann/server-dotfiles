@@ -40,7 +40,6 @@ if !exists("g:syntax_on")
     syntax enable
 endif
 set background=dark
-colorscheme solarized
 autocmd vimenter * wincmd p
 
 nnoremap <silent> <C-l> :<C-u>nohlsearch<CR><C-l>
